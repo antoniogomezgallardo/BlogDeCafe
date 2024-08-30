@@ -60,20 +60,81 @@ h4 {
     font-size: 2.8rem;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
 /* UTILIDADES */
 
-.no-margin{
+.no-margin {
     margin: 0;
 }
 
-.no-padding{
+.no-padding {
     padding: 0;
 }
 
-.center-text{
+.center-text {
     text-align: center;
+}
+
+/* HEADER */
+.header {
+    background-image: url(../img/banner.jpg);
+    height: 60rem;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header__texto {
+    text-align: center;
+    color: var(--white);
+    margin-top: 10rem;
+}
+
+@media (min-width: 768px) {
+   .header__texto{
+    margin-top: 15rem;
+   }
+ }
+
+@media (min-width: 768px) {
+    .barra {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.logo {
+    color: var(--white);
+}
+
+.logo__name {
+    font-weight: 400;
+    margin: 0;
+}
+
+.logo__bold {
+    font-weight: 700;
+}
+
+.navegacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navegacion__enlace {
+    color: var(--white);
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+@media (min-width:768px) {
+    .navegacion{
+        flex-direction:row;
+        gap: 2rem;
+    }
 }
