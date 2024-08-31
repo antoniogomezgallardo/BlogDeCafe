@@ -104,6 +104,9 @@ img {
         margin-top: 15rem;
     }
 }
+.barra{
+    padding-top: 3rem;
+}
 
 @media (min-width: 768px) {
     .barra {
@@ -200,5 +203,14 @@ img {
 
 .footer{
     background-color: var(--black);
-    padding: 4rem;
+    padding: 4rem 0;
+    margin-top: 3rem;
+}
+
+.barra-footer{
+    padding-top: 0;
+}
+
+.logo-footer h1{
+    margin-bottom: 2rem;
 }
