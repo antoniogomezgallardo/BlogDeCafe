@@ -84,6 +84,10 @@ img {
     font-weight: 700;
 }
 
+.no-top-margin{
+    margin-top: 0;
+}
+
 /* HEADER */
 .header {
     background-image: url(../img/banner.jpg);
@@ -214,3 +218,12 @@ img {
 .logo-footer h1{
     margin-bottom: 2rem;
 }
+
+/* NOSOTROS */
+@media (min-width: 768px) {
+   .nosotros{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+   }
+ }
