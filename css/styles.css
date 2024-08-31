@@ -227,3 +227,25 @@ img {
     column-gap: 2rem;
    }
  }
+
+ /* CURSOS */
+.entrada-curso{
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--grey);
+    margin-bottom: 3rem;
+}
+
+ @media (min-width: 768px) {
+    .entrada-curso{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+     }
+     .entrada-curso__titulo{
+        margin-top: 0;
+      }
+  }
+
+
+
+
