@@ -40,40 +40,34 @@
         </div>
     </header>
 
-    <div class="contenedor">
-        <h2 class="entrada1__titulo center-text">Tipos de granos de Café</h2>
-        <div class="entrada1">
-            <div class="entrada1__imagen">
-                <img src="img/blog1.jpg" alt="imagen granos de cafe">
+    <main class="contenedor">
+        <h2 class="center-text">Contacto</h2>
+
+        <div class="formulario__imagen"></div>
+
+        <form class="formulario">
+            <div class="campo">
+                <label class="campo__label" for="nombre" class="campo">Nombre</label>
+                <input class="campo__field" type="text" placeholder="Tu nombre" id="nombre">
             </div>
-            <div class="entrada1__informacion">
-                <p>
-                    Vestibulum aliquet, sem efficitur molestie bibendum, augue nibh tempor augue, ut feugiat tortor arcu
-                    a metus. Aliquam quis metus in enim consequat fringilla vitae sed lectus. Vestibulum nec sagittis
-                    lorem. Donec ultricies nulla porta, porta purus nec, efficitur nisl. Nam aliquam semper dolor eu
-                    pharetra. Aenean scelerisque rutrum posuere. Proin congue varius placerat.
-                </p>
-                <p>
-                    Nullam sagittis egestas orci, vel pharetra felis posuere nec. Integer convallis urna at ipsum
-                    feugiat condimentum at vitae sapien. Sed consequat, purus ac sodales suscipit, metus neque laoreet
-                    libero, sed blandit ligula nisl nec lectus. Curabitur molestie viverra enim sit amet ultrices.
-                    Aenean molestie nunc vitae quam convallis, sed auctor mauris convallis. Praesent fermentum pharetra
-                    nulla, ac consectetur tellus dapibus non. Donec vel porttitor ante. Morbi volutpat ac felis id
-                    volutpat. Donec ac sem posuere dolor ullamcorper porttitor ut ut urna. Pellentesque cursus, dui a
-                    vestibulum faucibus, quam nunc semper dolor, eu rutrum eros mauris vitae nisi. Aliquam quam felis,
-                    vestibulum nec odio eget, rhoncus accumsan nibh. Proin et orci scelerisque, pharetra nisi ac,
-                    efficitur sapien. Proin nisl tortor, sagittis sit amet hendrerit quis, molestie id enim. Vestibulum
-                    hendrerit mollis mauris quis pharetra. Ut non efficitur massa.</p>
-                </p>
-                <p>
-                    Cras a leo eros. Nulla id tempor nisl. In vel turpis velit. Sed quam dui, venenatis sed tortor nec,
-                    pellentesque interdum urna. Donec molestie ut turpis eu dignissim. Interdum et malesuada fames ac
-                    ante ipsum primis in faucibus. Cras vitae congue purus, in fringilla mi. Vivamus accumsan convallis
-                    nisl a finibus.
-                </p>
+
+            <div class="campo">
+                <label class="campo__label" for="email" class="campo">E-mail</label>
+                <input class="campo__field"  type="email" placeholder="Tu e-mail" id="email">
             </div>
-        </div>
-    </div>
+
+            <div class="campo">
+                <label class="campo__label" for="mensaje" class="campo">Mensaje</label>
+                <textarea class="campo__field campo__field--textarea"  id="mensaje"></textarea>
+            </div>
+
+            <div class="campo campo__btn">
+                <input type="submit" value="Enviar" class="boton boton--primario btn">
+            </div>
+
+        </form>
+
+    </main>
 
     <footer class="footer">
         <div class="contenedor">
